@@ -1,6 +1,6 @@
 # BigInteger
 
-## Задание
+## Task
 
 Длинная арифметика
 
@@ -17,3 +17,26 @@
 	    ошибки - stderr
 	Сторонние библиотеки - не используются, только средства языка, включая стандартную библиотеку
 	Cистема сборки: cmake
+	
+## Build
+
+`cmake -B build -S .` \
+`cmake --build build`
+
+## Run
+`./build/biginteger`
+
+## Usage
+
+```
+chap4ev-osx: ~/git_repos/hse-cpp/hw1 : ./build/biginteger
+Expression format "<number> <operation> <number>"
+Supported operations: + - * / %
+Input expression: -293459283495820934850923485029348592384 % 28645876239745692347562934756
+-293459283495820934850923485029348592384 % 28645876239745692347562934756 = -11269772810940187684229633868
+```
+
+## ЗЫ
+
+Реализация была написана мной еще на 1 курсе :) \
+https://github.com/chap4ev/HSE-Course/tree/master/module-1/homework/BigInteger
