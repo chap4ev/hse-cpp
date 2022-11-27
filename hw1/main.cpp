@@ -19,7 +19,7 @@ int main() {
 		std::cout << a + b;
 
 	} else if (op == "-") {
-		std::cout << a + b;
+		std::cout << a - b;
 
 	} else if (op == "*") {
 		std::cout << a * b;
